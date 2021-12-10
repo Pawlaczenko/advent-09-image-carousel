@@ -1,0 +1,22 @@
+.wrapper {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 250px;
+    overflow-x: scroll;
+
+    scroll-padding: 0 100px;
+    scroll-snap-type: both mandatory;
+    cursor: pointer;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    padding: 0 100px;
+}

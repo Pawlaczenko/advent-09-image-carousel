@@ -1,6 +1,7 @@
 {
   "name": "09-image-carousel",
   "version": "0.1.0",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -34,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.44.0"
   }
 }

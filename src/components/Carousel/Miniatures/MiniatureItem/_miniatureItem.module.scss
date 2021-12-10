@@ -1,0 +1,21 @@
+.wrapper {
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+
+    &__current img {
+        border: 10px solid pink;
+        outline-offset: -10px;
+        
+    }
+
+    &:last-child img {
+        margin-right: 100px;
+    }
+}
+
+.item {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    vertical-align: middle;
+}
